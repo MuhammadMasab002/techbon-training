@@ -13,6 +13,7 @@ const Button = ({ handleClick, label }) => {
   );
 };
 
+
 Button.prototype = {
   handleClick: PropTypes.func.isRequired,
   label: PropTypes.string.isRequired,

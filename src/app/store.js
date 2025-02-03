@@ -8,6 +8,7 @@ export const store = configureStore({
   reducer: {
     todo: todoReducer,
     count: countReducer,
+    
   },
   //devTools: true, // Enable Redux DevTools in development mode
 });

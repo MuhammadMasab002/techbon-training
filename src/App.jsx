@@ -32,6 +32,7 @@ function App() {
         <div>
           <h1 className="my-6 text-2xl font-bold text-white">Counter App</h1>
         </div>
+        
         <div className="w-100 flex items-center justify-evenly mb-4">
           <Button handleClick={incrementHandleClick} label={"Increment"} />
           <CountValue />
